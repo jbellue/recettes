@@ -1,0 +1,34 @@
+{{ define "title" }}
+{{ .Title | plainify }}
+{{ end }}
+{{ define "main" }}
+<h1>{{ .Title | safeHTML | markdownify }}</h1>
+{{.Content}}
+{{ end }}
+{{define "sidebar" }}
+  <h3>{{ partial "stars" . }}</h3>
+  {{ if .Params.categories }}
+    <h3>Categories</h3>
+    <ul>
+      {{ range $c := .Params.categories }}
+        <li><a href="/categories/{{ $c | urlize}}">{{ $c }}</a></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+  {{ range (split "auteur,quantité,personnes,tempsTotal,tempsDePréparation,tempsDeCuisson,tempsAutre" ",") }}
+    {{ if $.Param . }}
+      <h3>{{ . | humanize }}</h3>
+      {{ $.Param . }}
+    {{ end }}
+  {{ end }}
+  {{ if .Params.source }}
+    <h3>Source</h3>
+    <a href="{{ safeURL .Params.source }}">{{ .Params.source | truncate 30 }}</a>
+  {{ end }}
+  {{ if .Params.tags }}
+    <h3>Tags</h3>
+    {{ range .Params.tags }}
+    <a class="label label-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  {{ end }}
+{{ end }}

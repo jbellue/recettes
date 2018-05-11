@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Petit Déjeuner on Recettes, etc</title>
+    <link>http://localhost:55072/tags/petit-d%C3%A9jeuner/</link>
+    <description>Recent content in Petit Déjeuner on Recettes, etc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://localhost:55072/tags/petit-d%C3%A9jeuner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy fluffy scones</title>
+      <link>http://localhost:55072/sucr%C3%A9/p%C3%A2tisserie/easy-fluffy-scones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:55072/sucr%C3%A9/p%C3%A2tisserie/easy-fluffy-scones/</guid>
+      <description>Ingrédients    Quantité Ingredients     350g self-raising flour, plus more for dusting   1&amp;frasl;4 tsp salt   1 tsp baking powder   85g cold butter   4 tbsp golden caster sugar   150g natural full-fat yogurt   4 tbsp full-fat milk   1 tsp vanilla extract   1 egg    Préparation  Put a baking sheet in the oven at 220C/200C fan/gas 7.</description>
+    </item>
+    
+  </channel>
+</rss>
