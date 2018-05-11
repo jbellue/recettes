@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plat on Recettes, etc</title>
-    <link>https://jbellue.github.io/sal%C3%A9/plat/</link>
-    <description>Recent content in Plat on Recettes, etc</description>
+    <title>Alsace on Recettes, etc</title>
+    <link>https://jbellue.github.io/tags/alsace/</link>
+    <description>Recent content in Alsace on Recettes, etc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jbellue.github.io/sal%C3%A9/plat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jbellue.github.io/tags/alsace/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       
       <guid>https://jbellue.github.io/sal%C3%A9/plat/choucroute/</guid>
       <description>Ingrédients    Quantité Ingredients     1.5kg chou à choucroute   1 gros oignon piqué avec 1 clou de girofle   2 feuilles de laurier   1 petite poignée baies de genièvre   1 petite poignée grains de coriandre   1 bouteille 3&amp;frasl;4 Riesling (vin blanc sec)    sel    poivre   pour la garniture    1 palette de porc salée et fumée   800g lard fumé   6-8 viennoises   3-4 montbéliards   8-10 pommes de terre    Préparation  Laver deux fois la choucroute à l&amp;rsquo;eau froide puis l&amp;rsquo;égoutter et la presser pour extraire l&amp;rsquo;eau Frotter la marmite avec le lard puis y ajouter la choucroute, l&amp;rsquo;oignon puis le vin, sel, poivre, feuilles de laurier, les baies et les grains Après 1/2h remuer la choucroute et laisser ensuite mijoter pendent 2h en tout.</description>
-    </item>
-    
-    <item>
-      <title>Poulet Yassa</title>
-      <link>https://jbellue.github.io/sal%C3%A9/plat/poulet-yassa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jbellue.github.io/sal%C3%A9/plat/poulet-yassa/</guid>
-      <description>Ingrédients    Quantité Ingredients     1 beau poulet fermier   1 gros piment africain   pour la marinade    6 ou 7 oignons finement émincés en lanières   1 gousse d&amp;rsquo;ail émincée   1 cube maggi à écraser   5 ou 6 citrons verts (environ 1&amp;frasl;2 bol)   1 CàS moutarde    sel    poivre   optionnellement    une poignée olives vertes, rincées    Préparation  Couper le poulet en morceaux.</description>
     </item>
     
   </channel>
