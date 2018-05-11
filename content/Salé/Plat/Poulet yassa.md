@@ -4,7 +4,7 @@ auteur = "Jean-Luc"
 tempsDeCuisson = "1 heure"
 tempsAutre = "12 à 24h de marinade"
 tempsTotal = "26h"
-tags = ["poulet", "exotique", "exotiquwe", "exowtique", "exoetique", "exotisque", "exotbique"]
+tags = ["poulet", "exotique"]
 +++
 
 ## Ingrédients
