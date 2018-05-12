@@ -1,5 +1,6 @@
-baseURL = "https://jbellue.github.io/"
+baseURL = "https://jbellue.github.io/recettes"
 languageCode = "en-us"
 title = "Recettes, etc"
 theme = "hugo-theme-recipe"
+canonifyURLs = "true"
 relativeURLs = "true"

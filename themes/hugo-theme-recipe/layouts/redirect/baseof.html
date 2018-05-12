@@ -9,15 +9,16 @@
  valid JSON array.
 -->
 {{- range $.Site.RegularPages -}}
-  {{ $.Scratch.Add "tmp" (slice .RelPermalink) }}
+  {{ if ne .RelPermalink "/random/" }}
+    {{ $.Scratch.Add "tmp" (slice .Permalink) }}
+  {{end}}
 {{- end -}}
 {{ $.Scratch.Get "tmp" | jsonify | $.Scratch.Set "tmp" }}
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	var recipe = {{ $.Scratch.Get "tmp" | safeJS }} ;
-	var index = Math.floor(Math.random() * recipe.length);
-	$(location).attr('href', recipe[index]);
+	$(location).attr('href', recipe[Math.floor(Math.random() * recipe.length)]);
 });
 </script>
 </body></html>
