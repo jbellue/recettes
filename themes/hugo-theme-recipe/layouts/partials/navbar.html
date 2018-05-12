@@ -21,7 +21,7 @@
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownTagLink" role="button" aria-haspopup="true" aria-expanded="false">Tags</a>
         <div class="dropdown-menu" aria-labelledby="dropdownTagLink">
           {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <a class="dropdown-item" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+            <a class="dropdown-item" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}/">{{ $name }}</a>
           {{ end }}
         </div>
       </li>
