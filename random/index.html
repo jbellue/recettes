@@ -10,7 +10,7 @@ there must be *something* in this file -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	var recipe = ["/sal%C3%A9/plat/choucroute/","/sucr%C3%A9/p%C3%A2tisserie/easy-fluffy-scones/","/sucr%C3%A9/p%C3%A2tisserie/cookies-p%C3%A9pites-chocolat/","/sal%C3%A9/plat/poulet-yassa/","/random/"] ;
+	var recipe = ["https://jbellue.github.io/recettes/sal%C3%A9/plat/choucroute/","https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/easy-fluffy-scones/","https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/cookies-p%C3%A9pites-chocolat/","https://jbellue.github.io/recettes/sal%C3%A9/plat/poulet-yassa/","https://jbellue.github.io/recettes/random/"] ;
 	var index = Math.floor(Math.random() * recipe.length);
 	$(location).attr('href', recipe[index]);
 });
