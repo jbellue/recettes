@@ -6,8 +6,7 @@
 <title>
 Choux
 </title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
 <style>
@@ -25,10 +24,15 @@ Choux
   }
   a {text-decoration: underline}
 }
-body {font-family: 'Noticia Text', serif; font-size: 16px}
-table {margin-left:2.5rem}
+body {font-family: 'Noticia Text', serif; font-size:16px; font-weight: normal; color: #333}
+table {margin-left:25px; line-height: 1.3rem}
+h1, h2, h3 {margin-bottom: 10px}
+h2, h3 {margin-top: 20px}
+h1 {font-size: 2.25rem; line-height:2.5rem}
+h2 {font-size: 1.75rem; line-height:2rem}
+h3 {font-size: 1.5rem; line-height:1.6rem}
 th {font-weight:normal;font-size:1.1em;padding-bottom: 0.25rem; border-bottom: 1px solid #666}
-td {vertical-align:top;min-width:16rem; padding-right: 2rem; padding-bottom: 0.5rem}
+td {vertical-align:top; padding-right: 2rem; padding-bottom: 0.7rem}
 td.count {vertical-align:top;padding-right: 2rem; text-align:right; font-weight:normal; min-width:4rem}
 .breadcrumb {
   padding: 0;
@@ -43,68 +47,57 @@ td.count {vertical-align:top;padding-right: 2rem; text-align:right; font-weight:
 }
 </style>
 </head><body>
-<div class="hidden-print"><nav class="navbar navbar-default">
-  <div class="container-fluid">
-    
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../../">Accueil</a>
-    </div>
-
-    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collections <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+<div class="hidden-print"><nav class="navbar navbar-light bg-light navbar-expand-md" style="margin-bottom: 25px;">
+  <a class="navbar-brand" href="../../">Accueil</a>
+  <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#menuNavbarCollapse" aria-expanded="false">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="menuNavbarCollapse">
+    <ul class="nav navbar-nav mr-auto">
+      <li class="dropdown nav-item">
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownCollectionLink" role="button" aria-haspopup="true" aria-expanded="false">Collections</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownCollectionLink">
+          
+          
+            <a class="dropdown-item sidebar-nav-item" href="../../sal%C3%A9/">Salé</a>
             
+              <a class="pl-5 dropdown-item sidebar-nav-item" href="../../sal%C3%A9/plat/">Plat</a>
             
-              <li ><a class="sidebar-nav-item" href="../../sal%C3%A9/">Salé</a></li>
-              
-                <li ><a class="sidebar-nav-item" href="../../sal%C3%A9/plat/">&nbsp;&nbsp;Plat</a></li>
-              
+          
+            <a class="dropdown-item sidebar-nav-item" href="../../sucr%C3%A9/">Sucré</a>
             
-              <li ><a class="sidebar-nav-item" href="../../sucr%C3%A9/">Sucré</a></li>
-              
-                <li ><a class="sidebar-nav-item" href="../../sucr%C3%A9/p%C3%A2tisserie/">&nbsp;&nbsp;Pâtisserie</a></li>
-              
+              <a class="pl-5 dropdown-item sidebar-nav-item" href="../../sucr%C3%A9/p%C3%A2tisserie/">Pâtisserie</a>
             
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tags <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            
-              <li><a href="../../tags/alsace">alsace</a></li>
-            
-              <li><a href="../../tags/choux">choux</a></li>
-            
-              <li><a href="../../tags/exotique">exotique</a></li>
-            
-              <li><a href="../../tags/gras">gras</a></li>
-            
-              <li><a href="../../tags/petit-d%C3%A9jeuner">petit-déjeuner</a></li>
-            
-              <li><a href="../../tags/poulet">poulet</a></li>
-            
-              <li><a href="../../tags/sucr%C3%A9">sucré</a></li>
-            
-              <li><a href="../../tags/traditionnel">traditionnel</a></li>
-            
-          </ul>
-        </li>
-        <li><a href="../../random/">Au hasard</a></li>
-        
-      </ul></div>
-  </div>
-</nav>
-</div>
-<div class="container"><div class="row"><div class="col-sm-8">
+          
+        </div>
+      </li>
+      <li class="dropdown nav-item">
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownTagLink" role="button" aria-haspopup="true" aria-expanded="false">Tags</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownTagLink">
+          
+            <a class="dropdown-item" href="../../tags/alsace">alsace</a>
+          
+            <a class="dropdown-item" href="../../tags/choux">choux</a>
+          
+            <a class="dropdown-item" href="../../tags/exotique">exotique</a>
+          
+            <a class="dropdown-item" href="../../tags/gras">gras</a>
+          
+            <a class="dropdown-item" href="../../tags/petit-d%C3%A9jeuner">petit-déjeuner</a>
+          
+            <a class="dropdown-item" href="../../tags/poulet">poulet</a>
+          
+            <a class="dropdown-item" href="../../tags/sucr%C3%A9">sucré</a>
+          
+            <a class="dropdown-item" href="../../tags/traditionnel">traditionnel</a>
+          
+        </div>
+      </li>
+      <li class="nav-item"><a href="../../random/" class="nav-link">Au hasard</a></li>
+      
+    </ul></div>
+</nav></div>
+<div class="container"><div class="row"><div class="col-sm">
 
   <h1>Choux</h1>
   
@@ -127,11 +120,12 @@ td.count {vertical-align:top;padding-right: 2rem; text-align:right; font-weight:
   
 
 </div>
-<div class="col-sm-4">
+<div class="col-sm">
 
 </div>
 </div></div>
 <div class="footer" style="height:6rem"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body></html>
