@@ -1,55 +1,46 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Accueil</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collections <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            {{ $currentDir := .Dir }}
-            {{ range .Site.Home.Sections.ByTitle }}
-              <li {{if eq $currentDir .Dir }} class="active"{{end}}><a class="sidebar-nav-item" href="{{.RelPermalink}}">{{ .Title }}</a></li>
-              {{ range .Sections }}
-                <li {{if eq $currentDir .Dir }} class="active"{{end}}><a class="sidebar-nav-item" href="{{.RelPermalink}}">&nbsp;&nbsp;{{ .Title }}</a></li>
-              {{ end }}
+<nav class="navbar navbar-light bg-light navbar-expand-md" style="margin-bottom: 25px;">
+  <a class="navbar-brand" href="/">Accueil</a>
+  <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#menuNavbarCollapse" aria-expanded="false">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="menuNavbarCollapse">
+    <ul class="nav navbar-nav mr-auto">
+      <li class="dropdown nav-item">
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownCollectionLink" role="button" aria-haspopup="true" aria-expanded="false">Collections</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownCollectionLink">
+          {{ $currentDir := .Dir }}
+          {{ range .Site.Home.Sections.ByTitle }}
+            <a class="dropdown-item{{if eq $currentDir .Dir }} active{{end}} sidebar-nav-item" href="{{.RelPermalink}}">{{ .Title }}</a>
+            {{ range .Sections }}
+              <a class="pl-5 dropdown-item{{if eq $currentDir .Dir }} active{{end}} sidebar-nav-item" href="{{.RelPermalink}}">{{ .Title }}</a>
             {{ end }}
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tags <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-              <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
-            {{ end }}
-          </ul>
-        </li>
-        <li><a href="/random/">Au hasard</a></li>
-        {{ with $.Site.Data.meta.search }}
-          <li><a href="{{ . }}">Search</a></li>
-        {{ end }}
-      </ul>
-        {{- $section := $.Site.GetPage "section" .Section -}}
-        {{- with $.Site.GetPage "section" (trim .Dir "/") -}}
-          {{ if not (.InSection $.Site.Home) }}
-            <ol class="breadcrumb navbar-text navbar-right">
-            {{ if ne $section . }}
-              <li><a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a></li>
-            {{ end }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            </ol>
           {{ end }}
-        {{- end -}}
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+        </div>
+      </li>
+      <li class="dropdown nav-item">
+        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" id="dropdownTagLink" role="button" aria-haspopup="true" aria-expanded="false">Tags</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownTagLink">
+          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            <a class="dropdown-item" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+          {{ end }}
+        </div>
+      </li>
+      <li class="nav-item"><a href="/random/" class="nav-link">Au hasard</a></li>
+      {{ with $.Site.Data.meta.search }}
+        <li class="nav-item"><a href="{{ . }}" class="nav-link">Search</a></li>
+      {{ end }}
+    </ul>
+    
+    {{- $section := $.Site.GetPage "section" .Section -}}
+    {{- with $.Site.GetPage "section" (trim .Dir "/") -}}
+      {{ if not (.InSection $.Site.Home) }}
+        <ol class="breadcrumb navbar-text">
+          {{ if ne $section . }}
+            <li class="breadcrumb-item"><a href="{{ $section.RelPermalink }}">{{ $section.Title }}</a></li>
+          {{ end }}
+          <li class="breadcrumb-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        </ol>
+      {{ end }}
+    {{- end -}}
+  </div><!-- /.navbar-collapse -->
 </nav>

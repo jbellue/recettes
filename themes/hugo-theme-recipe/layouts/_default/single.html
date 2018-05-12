@@ -28,7 +28,7 @@
   {{ if .Params.tags }}
     <h3>Tags</h3>
     {{ range .Params.tags }}
-    <a class="label label-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    <a class="tag badge-pill badge-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
   {{ end }}
 {{ end }}
