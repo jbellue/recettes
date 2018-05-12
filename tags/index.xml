@@ -2,83 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Recettes, etc</title>
-    <link>https://jbellue.github.io/tags/</link>
+    <link>https://jbellue.github.io/recettes/tags/</link>
     <description>Recent content in Tags on Recettes, etc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jbellue.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jbellue.github.io/recettes/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alsace</title>
-      <link>https://jbellue.github.io/tags/alsace/</link>
+      <link>https://jbellue.github.io/recettes/tags/alsace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/alsace/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/alsace/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Choux</title>
-      <link>https://jbellue.github.io/tags/choux/</link>
+      <link>https://jbellue.github.io/recettes/tags/choux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/choux/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/choux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exotique</title>
-      <link>https://jbellue.github.io/tags/exotique/</link>
+      <link>https://jbellue.github.io/recettes/tags/exotique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/exotique/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/exotique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gras</title>
-      <link>https://jbellue.github.io/tags/gras/</link>
+      <link>https://jbellue.github.io/recettes/tags/gras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/gras/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/gras/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Petit Déjeuner</title>
-      <link>https://jbellue.github.io/tags/petit-d%C3%A9jeuner/</link>
+      <link>https://jbellue.github.io/recettes/tags/petit-d%C3%A9jeuner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/petit-d%C3%A9jeuner/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/petit-d%C3%A9jeuner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poulet</title>
-      <link>https://jbellue.github.io/tags/poulet/</link>
+      <link>https://jbellue.github.io/recettes/tags/poulet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/poulet/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/poulet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sucré</title>
-      <link>https://jbellue.github.io/tags/sucr%C3%A9/</link>
+      <link>https://jbellue.github.io/recettes/tags/sucr%C3%A9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/sucr%C3%A9/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/sucr%C3%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Traditionnel</title>
-      <link>https://jbellue.github.io/tags/traditionnel/</link>
+      <link>https://jbellue.github.io/recettes/tags/traditionnel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jbellue.github.io/tags/traditionnel/</guid>
+      <guid>https://jbellue.github.io/recettes/tags/traditionnel/</guid>
       <description></description>
     </item>
     
