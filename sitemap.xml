@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://jbellue.github.io/recettes/tags/biscuits/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jbellue.github.io/recettes/categories/</loc>
     <priority>0</priority>
   </url>
@@ -33,6 +38,15 @@
   <url>
     <loc>https://jbellue.github.io/recettes/tags/fraises/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/tags/galettes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/galettes_de_mamie/</loc>
   </url>
   
   <url>
