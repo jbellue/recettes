@@ -2,7 +2,7 @@
 title = "Galettes de mamie"
 auteur = "Domi"
 tags = ["galettes", "biscuits"]
-"quantité" "environ 100 galettes"
+"quantité" = "environ 100 galettes"
 +++
 
 ## Ingrédients
