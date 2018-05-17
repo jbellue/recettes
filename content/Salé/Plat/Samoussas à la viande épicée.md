@@ -33,7 +33,7 @@ un peu| lait
 4. Laisser refroidir et ajouter l'œuf battu.
 5. Plier les samoussas.
 ![Comment plier les samoussas][pliage]
-6. Chauffer l'huile dans une poële et cuire 3 minutes d'un côté et 2 minutes de l'autre.
+6. Chauffer l'huile dans une poêle et cuire 3 minutes d'un côté et 2 minutes de l'autre.
 
 
 [pliage]: ../pliage-brick.png "Comment plier les samoussas"
