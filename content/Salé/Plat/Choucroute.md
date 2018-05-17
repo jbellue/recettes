@@ -4,7 +4,7 @@ auteur = "Mamama Christiane"
 tempsDeCuisson = "2h"
 tempsAutre = "1.5h de cuisson pour les viandes"
 tempsTotal = "3h"
-tags = ["Alsace", "traditionnel", "choux", "gras"]
+tags = ["Alsace", "traditionnel", "chou", "gras"]
 +++
 
 ## Ingrédients
