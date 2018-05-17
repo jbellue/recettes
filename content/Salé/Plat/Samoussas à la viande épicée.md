@@ -36,4 +36,4 @@ un peu| lait
 6. Chauffer l'huile dans une poële et cuire 3 minutes d'un côté et 2 minutes de l'autre.
 
 
-[pliage]: ./pliage-brick.png "Comment plier les samoussas"
+[pliage]: ../pliage-brick.png "Comment plier les samoussas"
