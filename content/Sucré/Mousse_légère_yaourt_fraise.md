@@ -2,7 +2,7 @@
 title = "Mousse légère de yaourt au citron vert et aux fraises"
 auteur = "Papilles et Pupilles"
 tags = ["mousse", "fraises"]
-source = https://www.papillesetpupilles.fr/2012/06/mousse-legere-de-yaourt-au-citron-vert-et-aux-fraises.html/
+source = "https://www.papillesetpupilles.fr/2012/06/mousse-legere-de-yaourt-au-citron-vert-et-aux-fraises.html/"
 "quantité" = "4 verrines" 
 +++
 
