@@ -31,6 +31,11 @@
   </url>
   
   <url>
+    <loc>https://jbellue.github.io/recettes/tags/fraises/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jbellue.github.io/recettes/tags/gras/</loc>
     <priority>0</priority>
   </url>
@@ -41,6 +46,15 @@
   
   <url>
     <loc>https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/cookies-p%C3%A9pites-chocolat/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/tags/mousse/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/sucr%C3%A9/mousse_l%C3%A9g%C3%A8re_yaourt_fraise/</loc>
   </url>
   
   <url>
