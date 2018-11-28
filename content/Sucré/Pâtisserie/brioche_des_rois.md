@@ -9,7 +9,7 @@ source = "https://www.papillesetpupilles.fr/2007/01/royaume-brioche-des-rois-pro
 tags = ["sucré","traditionnel"] 
 +++
 
-![La galette des rois terminée](brioche_des_rois.jpg "La galette des rois terminée")
+![La galette des rois terminée](../brioche_des_rois.jpg "La galette des rois terminée")
 ## Ingrédients
 - 280 g de farine T45
 - 10 g de levure fraîche de boulanger
