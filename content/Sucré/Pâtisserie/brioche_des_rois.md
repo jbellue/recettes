@@ -10,6 +10,7 @@ tags = ["sucré","traditionnel"]
 +++
 
 [La galette des rois terminée](https://www.papillesetpupilles.fr/wp-content/uploads/2007/01/Royaume-1-1000x0.jpg)
+![alt text](brioche_des_rois.jpg "La galette des rois terminée")
 ## Ingrédients
 - 280 g de farine T45
 - 10 g de levure fraîche de boulanger
