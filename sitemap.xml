@@ -13,6 +13,10 @@
   </url>
   
   <url>
+    <loc>https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/brioche_des_rois/</loc>
+  </url>
+  
+  <url>
     <loc>https://jbellue.github.io/recettes/categories/</loc>
     <priority>0</priority>
   </url>
@@ -28,6 +32,11 @@
   
   <url>
     <loc>https://jbellue.github.io/recettes/tags/citron/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/tags/desserts/</loc>
     <priority>0</priority>
   </url>
   
@@ -99,6 +108,10 @@
   </url>
   
   <url>
+    <loc>https://jbellue.github.io/recettes/sucr%C3%A9/desserts/crepes-galettes/</loc>
+  </url>
+  
+  <url>
     <loc>https://jbellue.github.io/recettes/sucr%C3%A9/p%C3%A2tisserie/</loc>
   </url>
   
@@ -149,6 +162,10 @@
   <url>
     <loc>https://jbellue.github.io/recettes/tags/traditionnel/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jbellue.github.io/recettes/sucr%C3%A9/desserts/yaourts_maison/</loc>
   </url>
   
 </urlset>
